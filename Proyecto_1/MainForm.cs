@@ -29,5 +29,19 @@ namespace Proyecto_1
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		
+		void BtnAceptarClick(object sender, EventArgs e)
+		{
+			if(txtContraseña.Text == "123")
+			{
+				Menu M = new Menu();
+				M.Show();
+				this.Hide();
+			}
+			else
+			{
+				MessageBox.Show("La contraseña no es correcta, ingresa la que se indica");
+			}
+		}
 	}
 }
