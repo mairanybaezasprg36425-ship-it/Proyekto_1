@@ -28,5 +28,16 @@ namespace Proyecto_1
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		
+		void BtnImprimirClick(object sender, EventArgs e)
+		{
+			string palabra = txtPalabra.Text;
+
+		    char[] caracteres = palabra.ToCharArray();
+		    Array.Reverse(caracteres);
+		    string palabraAlReves = new string(caracteres);
+		
+		    lblResultado.Text = palabraAlReves;
+		}
 	}
 }

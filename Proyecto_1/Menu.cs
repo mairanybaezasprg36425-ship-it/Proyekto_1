@@ -28,5 +28,19 @@ namespace Proyecto_1
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		
+		void SalirToolStripMenuItemClick(object sender, EventArgs e)
+		{
+			Application.Exit();
+		}
+		
+		void BtnPrograma3Click(object sender, EventArgs e)
+		{
+				Programa3 P = new Programa3();
+				P.Show();
+				this.Hide();			
+		}
 	}
 }
+
+//prueba
