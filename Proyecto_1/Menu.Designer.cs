@@ -92,7 +92,7 @@ namespace Proyecto_1
 			// 
 			// label3
 			// 
-			this.label3.Location = new System.Drawing.Point(457, 133);
+			this.label3.Location = new System.Drawing.Point(446, 133);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(100, 23);
 			this.label3.TabIndex = 3;
@@ -108,7 +108,7 @@ namespace Proyecto_1
 			// 
 			// label5
 			// 
-			this.label5.Location = new System.Drawing.Point(457, 305);
+			this.label5.Location = new System.Drawing.Point(446, 305);
 			this.label5.Name = "label5";
 			this.label5.Size = new System.Drawing.Size(100, 23);
 			this.label5.TabIndex = 5;
@@ -126,11 +126,11 @@ namespace Proyecto_1
 			// label7
 			// 
 			this.label7.Font = new System.Drawing.Font("Sylfaen", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label7.Location = new System.Drawing.Point(379, 169);
+			this.label7.Location = new System.Drawing.Point(368, 169);
 			this.label7.Name = "label7";
-			this.label7.Size = new System.Drawing.Size(253, 23);
+			this.label7.Size = new System.Drawing.Size(276, 23);
 			this.label7.TabIndex = 10;
-			this.label7.Text = "Arreglo Menor a Mayor";
+			this.label7.Text = "Menor y Mayor promedio";
 			// 
 			// label10
 			// 
@@ -139,16 +139,16 @@ namespace Proyecto_1
 			this.label10.Name = "label10";
 			this.label10.Size = new System.Drawing.Size(253, 23);
 			this.label10.TabIndex = 11;
-			this.label10.Text = "Arreglo Menor a Mayor";
+			this.label10.Text = "Vocales y Consonantes";
 			// 
 			// label11
 			// 
 			this.label11.Font = new System.Drawing.Font("Sylfaen", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label11.Location = new System.Drawing.Point(24, 338);
+			this.label11.Location = new System.Drawing.Point(76, 338);
 			this.label11.Name = "label11";
-			this.label11.Size = new System.Drawing.Size(253, 23);
+			this.label11.Size = new System.Drawing.Size(192, 23);
 			this.label11.TabIndex = 12;
-			this.label11.Text = "Arreglo Menor a Mayor";
+			this.label11.Text = "Palabra Alrevez";
 			// 
 			// btnPrograma1
 			// 
@@ -161,7 +161,7 @@ namespace Proyecto_1
 			// 
 			// btnPrograma2
 			// 
-			this.btnPrograma2.Location = new System.Drawing.Point(428, 219);
+			this.btnPrograma2.Location = new System.Drawing.Point(417, 219);
 			this.btnPrograma2.Name = "btnPrograma2";
 			this.btnPrograma2.Size = new System.Drawing.Size(151, 42);
 			this.btnPrograma2.TabIndex = 14;
@@ -180,7 +180,7 @@ namespace Proyecto_1
 			// 
 			// btnPrograma4
 			// 
-			this.btnPrograma4.Location = new System.Drawing.Point(428, 407);
+			this.btnPrograma4.Location = new System.Drawing.Point(417, 407);
 			this.btnPrograma4.Name = "btnPrograma4";
 			this.btnPrograma4.Size = new System.Drawing.Size(151, 42);
 			this.btnPrograma4.TabIndex = 16;
